@@ -4,6 +4,117 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   background-color: pink;
+}
+
+.container_hero {
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  background-color: lightgreen;
+  top: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+header .nav_top,
+header .nav_sub {
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+}
+header .nav_sub {
+  opacity: 0.7;
+}
+
+.container_hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mt_5 {
+  margin-top: 5px;
+}
+
+.mt_10 {
+  margin-top: 10px;
+}
+
+.mt_15 {
+  margin-top: 15px;
+}
+
+.mt_20 {
+  margin-top: 20px;
+}
+
+.mt_25 {
+  margin-top: 25px;
+}
+
+.mt_30 {
+  margin-top: 30px;
+}
+
+.mt_35 {
+  margin-top: 35px;
+}
+
+.mt_40 {
+  margin-top: 40px;
+}
+
+.mt_45 {
+  margin-top: 45px;
+}
+
+.mt_50 {
+  margin-top: 50px;
+}
+
+.pad_5 {
+  padding: 5px;
+}
+
+.pad_10 {
+  padding: 10px;
+}
+
+.pad_15 {
+  padding: 15px;
+}
+
+.pad_20 {
+  padding: 20px;
+}
+
+.pad_25 {
+  padding: 25px;
+}
+
+.pad_30 {
+  padding: 30px;
+}
+
+.pad_35 {
+  padding: 35px;
+}
+
+.pad_40 {
+  padding: 40px;
+}
+
+.pad_45 {
+  padding: 45px;
+}
+
+.pad_50 {
+  padding: 50px;
 }

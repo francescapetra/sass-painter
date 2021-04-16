@@ -5,3 +5,14 @@
 @import "partials/_box.scss";
 @import "partials/_header.scss";
 @import "partials/_hero.scss";
+
+@for $i from 1 through 10 {
+  .mt_#{5 * $i} {
+    margin-top: 5px * $i;
+  }
+}
+@for $i from 1 through 10 {
+  .pad_#{5 * $i} {
+    padding: 5px * $i;
+  }
+}
