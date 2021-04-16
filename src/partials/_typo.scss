@@ -1,4 +1,29 @@
-$font_16: 16px;
-$font_18: 18px;
-$font_26: 26px;
-$font_30: 30px;
+
+h2{
+  font-size: $font_32;
+  padding-bottom: 15px;
+  text-align: $cen;
+}
+.sub_title{
+  max-width: 70%;
+  margin: $auto;
+  line-height: 1.5;
+  font-size: $font_16;
+}
+h3{
+  font-size: $font_32;
+  padding-bottom: 15px;
+  line-height: 1.2;
+}
+.immagination{
+  max-width: 95%;
+}
+.content{
+  max-width: 90%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.link_features{
+  text-decoration: none;
+  color: $blue_first;
+}
