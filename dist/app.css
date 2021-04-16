@@ -54,25 +54,25 @@ h3 {
   color: #1473e6;
 }
 
-.first_button {
+.first_button,
+.second_button {
   display: inline-block;
   color: #fff;
   padding: 10px 30px;
-  background: transparent;
   border-radius: 30px;
   font-size: 22px;
   margin-right: 10px;
+}
+
+.first_button {
+  background: transparent;
   border: 2px solid #fff;
 }
 
 .second_button {
-  display: inline-block;
-  color: #fff;
-  background-color: #1473e6;
-  padding: 10px 30px;
-  border-radius: 30px;
   font-size: 22px;
   border: 2px solid #1473e6;
+  background-color: #1473e6;
 }
 
 .container_hero {
@@ -160,6 +160,10 @@ header .nav_sub {
 }
 header .nav_sub {
   opacity: 0.7;
+}
+
+.adobe_logo_image {
+  width: 50px;
 }
 
 .container_hero {

@@ -1,19 +1,18 @@
-.first_button{
-  display: inline-block;
-  color: $white_color;
-  padding: 10px 30px;;
-  background: transparent;
-  border-radius: 30px;
-  font-size: $font_22;
-  margin-right: 10px;
-  border: 2px solid $white_color;
-}
+.first_button,
 .second_button{
   display: inline-block;
   color: $white_color;
-  background-color: $blue_first;
-  padding: 10px 30px;
+  padding: 10px 30px;;
   border-radius: 30px;
   font-size: $font_22;
-  border: 2px solid $blue_first;
+  margin-right: 10px;
 }
+ .first_button{
+  background: transparent;
+   border: 2px solid $white_color;
+ }
+ .second_button{
+   font-size: $font_22;
+   border: 2px solid $blue_first;
+   background-color: $blue_first;
+ }
