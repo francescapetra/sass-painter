@@ -161,14 +161,55 @@ header .nav_top,
 header .nav_sub {
   height: 60px;
   width: 100%;
+  padding: 0 50px;
   background-color: #fff;
 }
 header .nav_sub {
   opacity: 0.7;
 }
+header .nav_top {
+  display: flex;
+}
+header .first_start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .first_logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+header .first_logo p {
+  color: red;
+  font-weight: 500;
+}
+header .logo_adobe {
+  display: flex;
+  margin-right: 10px;
+  width: 25%;
+}
 
-.adobe_logo_image {
-  width: 50px;
+.first_center {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+.first_center ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline;
+  list-style: none;
+}
+.first_center a {
+  text-decoration: none;
+  color: #000;
 }
 
 .container_hero {
@@ -176,6 +217,70 @@ header .nav_sub {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;
+}
+
+.container_hero {
+  height: 700px;
+}
+.container_hero .content_hero {
+  height: 100%;
+  width: 60%;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo_container {
+  width: 64px;
+  display: block;
+}
+.logo_container img.logo {
+  width: 100%;
+}
+
+.container_title_features {
+  padding: 70px 0;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.features_left {
+  display: flex;
+}
+.features_left .feat_img {
+  width: 55%;
+  height: 350px;
+}
+.features_left .feat_img img {
+  height: 100%;
+  width: 100%;
+}
+.features_left .feat_content {
+  text-align: left;
+  height: 350px;
+  width: 45%;
+  padding: 70px 30px 0 80px;
+}
+
+.features_right {
+  display: flex;
+}
+.features_right .feat_img {
+  width: 55%;
+}
+.features_right .feat_img img {
+  width: 100%;
+  height: 100%;
+}
+.features_right .feat_content {
+  text-align: left;
+  height: 350px;
+  width: 45%;
+  padding: 70px 30px 0 30px;
+  margin-top: 70px;
 }
 
 .mt_5 {

@@ -13,3 +13,7 @@ body{
   margin: auto;
   width: 75%;
 }
+@mixin display_flex{
+  display: flex;
+  align-items: center;
+}

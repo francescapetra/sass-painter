@@ -4,18 +4,56 @@ header{
   left: 0;
   right: 0;
   z-index: 10;
-
     .nav_top,
     .nav_sub
     {
       height: 60px;
       width: 100%;
+      padding: 0 50px;
       background-color: $white_color;
     }
     .nav_sub{
     opacity: 0.7;
     }
+    .nav_top{
+        display: flex;
+    }
+    .first_start{
+      @include display_flex;
+      justify-content: flex-start;
+    }
+.first_logo{
+  p{
+    color: $red_color;
+    font-weight: 500;
+  }
+  width: 100px;
+  @include display_flex;
 }
-.adobe_logo_image{
-  width: 50px;
+.logo_adobe{
+  display: flex;
+  margin-right: 10px;
+  width: 25%;
+}
+}
+.first_center{
+  @include display_flex;
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0 50px;
+  ul li {
+  @include display_flex;
+  margin-right: 20px;
+  font-size: $font_14;
+  font-weight: 500;
+
+
+  display: inline;
+  list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: $bk_color;
+  }
 }
